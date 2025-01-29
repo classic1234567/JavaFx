@@ -6,7 +6,7 @@ import javafx.stage.Stage;
 public class Main extends Application {
     @Override
     public void start(Stage stage) {
-        Label label = new Label("Hello, JavaFX! 실행 성공 🎉");
+        Label label = new Label("실행 성공 🎉");
         Scene scene = new Scene(label, 400, 300);
         stage.setScene(scene);
         stage.setTitle("JavaFX Test");
@@ -14,6 +14,6 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) {
-        launch(args);  // JavaFX 애플리케이션 실행
+        launch(args);
     }
 }
